@@ -114,3 +114,32 @@ if (number3 === 2 && number1 === 10) {
 if (number2 === 20 || number1 === 10) {
   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
+
+// #6: Bucles
+// 6.1
+let numero = "";
+for (let i = 0; i < 10; i++) {
+  numero += i;
+
+  // 6.2
+  if (i === 2) {
+    console.log(i);
+  }
+}
+
+console.log(numero);
+
+// 6.3
+
+const frase1 = "Intentando dormir";
+const frase2 = "Dormido!";
+let number = "";
+
+for (let i = 0; i < 10; i++) {
+  number = i;
+  if (number < 9) {
+    console.log(frase1);
+  } else {
+    console.log(frase2);
+  }
+}
