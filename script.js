@@ -34,3 +34,23 @@ const car2 = { name: "Chevrolet Corbina", basePrice: 70000, finalPrice: 80000 };
 globalBasePrice = 25000;
 car1.finalPrice = car1.basePrice + globalBasePrice;
 car2.finalPrice = car2.basePrice + globalBasePrice;
+
+// #3: Operadores
+// 3.1
+alert(10 * 5);
+
+// 3.2
+alert(10 / 2);
+
+// 3.3
+alert(15 / 9);
+
+// 3.4
+y = 10;
+z = 5;
+x = y + z;
+console.log(x);
+
+// 3.5
+x = y * z;
+console.log(x);
